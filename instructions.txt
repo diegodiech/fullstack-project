@@ -1,0 +1,74 @@
+TAREA PARA LA SIGUIENTE CLASE
+
+OBJETIVO
+
+Tener una página funcional de gestión de tareas que:
+	•	permita agregar tareas
+	•	permita eliminar tareas
+	•	tenga una interfaz limpia
+	•	esté subida a GitHub
+
+LO QUE TIENEN QUE HACER
+
+1. Completar el HTML
+	•	Tener la estructura completa:
+	•	título
+	•	input
+	•	botón
+	•	lista (ul)
+
+Resultado esperado:
+	•	La página se ve correctamente en el navegador
+
+2. Mejorar el CSS
+
+Deben tener al menos:
+	•	fondo de página
+	•	input estilizado
+	•	botón con color
+	•	lista sin puntos
+	•	tareas con estilo tipo “tarjeta”
+
+Opcional (recomendado):
+	•	hover en botón
+	•	mejor espaciado
+
+3. Completar JavaScript
+
+Deben lograr que:
+	•	el botón agregue tareas
+	•	no se puedan agregar tareas vacías
+	•	cada tarea aparezca en pantalla
+	•	el input se limpie después de agregar
+	•	cada tarea se elimine al hacer clic
+
+4. Probar el sistema
+
+Deben verificar:
+	•	escribir tarea → aparece
+	•	clic en tarea → se elimina
+	•	input vacío → no agrega
+
+5. Subir a GitHub
+
+Deben hacer:
+	•	git add .
+	•	git commit -m "task manager working"
+	•	git push
+
+En GitHub debe verse:
+	•	archivo index.html
+	•	código completo
+	•	al menos 1 commit
+
+
+HASTA DÓNDE TIENEN QUE LLEGAR
+
+Resultado final esperado:
+
+Una página web donde:
+
+	•	el usuario escribe una tarea
+	•	presiona el botón
+	•	la tarea aparece en pantalla
+	•	puede eliminarla con clic

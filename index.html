@@ -62,7 +62,27 @@
     const input = document.querySelector("#taskInput");
     const button = document.querySelector("#addTaskBtn");
     const list = document.querySelector("#taskList");
-    button.addEventListener("click, () = {}");
+    button.addEventListener("click", () => {
+        const textTask = input.value.trim();
+        if (textTask == ""){
+            alert("¡Escribe algo primero!");
+            return;
+        }
+        const newTask = document.createElement("li");
+        newTask.textContent = textTask;
+        //Con esto solo se eliminan las tareas nuevas
+        /*newTask.addEventListener("click", () => {
+            newTask.remove(); // Se elimina a sí mismo del DOM
+        });*/
+        list.appendChild(newTask);
+        input.value = "";
+    
+    });
+    list.addEventListener("click", () => {
+        if (event.target.tagName.toLowerCase() === "li"){
+            event.target.remove();
+        }
+    });
 </script>    
 </body>
 </html>
